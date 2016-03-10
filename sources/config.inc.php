@@ -86,8 +86,8 @@ $cfg['Servers'][$i]['navigationhiding'] = 'pma__navigationhiding';
 /*
  * Directories for saving/loading files from server
  */
-$cfg['UploadDir'] = '';
-$cfg['SaveDir'] = '';
+$cfg['UploadDir'] = '/date';
+$cfg['SaveDir'] = '/date';
 
 /**
  * Defines whether a user should be displayed a "show all (records)"
@@ -206,8 +206,8 @@ $cfg['Servers'][$i]['central_columns'] = 'pma__central_columns';
 /*
  * Directories for saving/loading files from server
  */
-$cfg['UploadDir'] = '';
-$cfg['SaveDir'] = '';
+$cfg['UploadDir'] = '/date';
+$cfg['SaveDir'] = '/date';
 
 /**
  * Defines whether a user should be displayed a "show all (records)"
