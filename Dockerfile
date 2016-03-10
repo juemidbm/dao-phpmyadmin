@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y mysql-client
 
 #ENV PHPMYADMIN_VERSION 4.4.3
-ENV MAX_UPLOAD "50M"
+ENV MAX_UPLOAD "500M"
 
 RUN rm -r /www 
 ADD phpMyAdmin/ /www/
